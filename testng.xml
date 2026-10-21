@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredLearningSuite" verbose="1">
+    <test name="AllTests">
+        <classes>
+            <class name="com.learn.restassured.GetRequestTests"/>
+            <class name="com.learn.restassured.PostRequestTests"/>
+            <class name="com.learn.restassured.PutPatchDeleteTests"/>
+            <class name="com.learn.restassured.HeadersCookiesAuthTests"/>
+            <class name="com.learn.restassured.SerializationExtractionTests"/>
+            <class name="com.learn.restassured.LoggingFilterSchemaMultipartTests"/>
+        </classes>
+    </test>
+</suite>
